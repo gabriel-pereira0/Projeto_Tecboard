@@ -1,16 +1,66 @@
-# React + Vite
+# TecBoard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para estudos em React, com foco na criação de componentes, manipulação de estados, renderização dinâmica e construção de formulários para cadastro de eventos.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- JavaScript
+- CSS3
+- Vite
 
-## React Compiler
+## 📚 Objetivo do projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto foi criado com finalidade de aprendizado e prática dos principais conceitos do React, incluindo:
 
-## Expanding the ESLint configuration
+- Componentização
+- Props
+- State
+- Renderização de listas
+- Manipulação de formulários
+- Responsividade com CSS
+- Organização de componentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Funcionalidades
+
+- Cadastro de eventos
+- Separação de eventos por temas
+- Exibição dinâmica dos eventos cadastrados
+- Layout responsivo
+- Componentes reutilizáveis
+
+## 🎯 Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos importantes do React, como:
+
+Criação de componentes reutilizáveis
+Controle de inputs com formulário
+Gerenciamento de estado com useState
+Manipulação de arrays com map e filter
+Estilização e responsividade
+
+## ▶️ Como executar o projeto
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/gabriel-pereira0/Projeto_Tecboard
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd tecborad
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+npm run dev
+```
