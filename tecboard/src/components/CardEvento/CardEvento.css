@@ -1,0 +1,52 @@
+.card-evento {
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  width: 282px;
+  height: 478px;
+  color: #fff;
+}
+
+.card-evento p,
+h4 {
+  margin: 0;
+}
+
+.card-evento .imagem-evento {
+  width: 282px;
+  height: 237px;
+}
+
+.card-evento .info-evento {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.card-evento .info-evento .tag-evento {
+  background-color: #4a4949;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 120;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.card-evento .info-evento .data {
+  font-weight: 400px;
+  font-size: 13px;
+}
+
+.card-evento .info-evento .titulo {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.card-evento .info-evento .descricao-evento {
+  font-size: 16px;
+  font-weight: 300;
+}

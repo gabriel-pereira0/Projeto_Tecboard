@@ -1,0 +1,25 @@
+.section-eventos {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+.cards-eventos {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 375px) {
+  .section-eventos {
+    align-items: center;
+  }
+
+  .cards-eventos {
+    justify-content: center;
+  }
+}

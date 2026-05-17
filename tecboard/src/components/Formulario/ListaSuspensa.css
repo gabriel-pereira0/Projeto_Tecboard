@@ -1,0 +1,14 @@
+.lista-suspensa {
+  display: flex;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #4a4949;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.lista-suspensa option {
+  background-color: #212121;
+}
