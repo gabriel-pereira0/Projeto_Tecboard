@@ -1,5 +1,3 @@
-import { listTemas } from './listTemas';
-
 export const listEventos = [
   {
     capa: 'https://raw.githubusercontent.com/viniciosneves/tecboard-assets/refs/heads/main/imagem_1.png',
