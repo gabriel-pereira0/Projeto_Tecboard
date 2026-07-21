@@ -14,6 +14,16 @@
   padding-bottom: 64px;
 }
 
+@media (max-width: 768px) {
+  .section-eventos {
+    align-items: center;
+  }
+
+  .cards-eventos {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 375px) {
   .section-eventos {
     align-items: center;
