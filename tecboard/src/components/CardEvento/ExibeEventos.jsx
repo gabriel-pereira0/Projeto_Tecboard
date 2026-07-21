@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
 import './ExibeEventos.css';
 
 import { Temas } from '../Temas/Temas.jsx';
 import { CardEvento } from './CardEvento.jsx';
 
-import { listEventos } from '../../utils/listEventos.js';
 import { listTemas } from '../../utils/listTemas.js';
 
 export function ExibeEventos({ eventos }) {
