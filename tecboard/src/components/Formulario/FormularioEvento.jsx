@@ -1,4 +1,3 @@
-import React from 'react';
 import './FormularioEvento.css';
 
 import { Inputs } from './Inputs';
@@ -6,9 +5,8 @@ import { ListaSuspensa } from './ListaSuspensa';
 import { Botao } from '../Botao/Botao';
 
 import { listTemas } from '../../utils/listTemas';
-import { listEventos } from '../../utils/listEventos';
 
-export function FormularioEvento({ temas, aoSubmeter }) {
+export function FormularioEvento({ aoSubmeter }) {
   function aoFormSubmetido(formData) {
     const temaSelecionado = listTemas.find(function (item) {
       return item.id === Number(formData.get('tema'));
